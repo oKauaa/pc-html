@@ -1,27 +1,31 @@
 <!doctype html>
 <html>
 <head>
-<title>Pagina de Testes| Valério </title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Testes| Valério </title>
 	<link rel="icon" type="image/png" href="capa.png">
 	 <link rel="stylesheet" href="style.css">
-	 <div class="estrelas">
+	 
+</head>
+<body>
+
+	<div class="estrelas">
 		<span></span>
 		<span></span>
 		<span></span>
 		<span></span>
 		<span></span>
 	 </div>	
-</head>
-<body>
 	
 	<h2>Identificação</h2>
 	<form>
 		<label for="nome">Nome: </label>
-		<input type="text" name="nome" required>
+		<input type="text" id="nome" name="nome" required>
 		<br>
 			<br>
 		<label for="email">Email: </label>
-		<input type="email" name="email" required>
+		<input type="email" id="email" name="email" required>
 		<br>
 		<br>
 		<label for="tel">Telefone: </label>
@@ -29,11 +33,11 @@
 		<br>
 		<br>
 		<label for="nascimento">Data de Nascimento: </label>
-		<input type="date" name="nascimento" required>
+		<input type="date" id="nascimento" name="nascimento" required>
 		<br>
 		<br>
 		<label for="mensagem">Mensagem: </label>
-		<textarea name="mensagem" cols="60" rows="1"></textarea>
+		<textarea id="mensagem" name="mensagem" cols="60" rows="1"></textarea>
 		<br>
 		<br>
 		<input type="submit" value="Enviar">
@@ -57,7 +61,7 @@
 	</ul>
 	<h2>Tabela Simples</h2>
 	<h3>Amd x Nvidia</h3>
-	<table width="30%" border="2" >
+	<table>
 		<tr>
 			<th>Tipo</th><th>Modelo</th><th>Preço</th><th>Custo beneficio</th>
 		</tr>

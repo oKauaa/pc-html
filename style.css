@@ -64,15 +64,19 @@ form{
     padding: 19px;
     background-color: rgba(20, 20, 20, 0.1);
     border-radius: 10px;
-    width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     border: 1px solid #2c0000;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 input{
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #2c0000;
-    width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 300px;
 }
 h3{
     color:rgba(255, 255, 255, 0.877);
@@ -103,7 +107,8 @@ input[type="submit"]{
 img {
     display: block;
     margin: 0 auto;
-    width: 411px;
+    width: 90%;
+    max-width: 411px;
     border-radius: 10px;
     border: 5px solid #2c0000;
 
@@ -125,9 +130,10 @@ li{
 }
 table{
     border-collapse: collapse;
-    width: 75%;
+    width: 90%;
+    max-width: 1000px;
     margin-top: 20px;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 15px;
 
 }
@@ -140,7 +146,9 @@ textarea{
     padding: 10px;
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, 0.877);
-    width: 300px;
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 300px;
 }
 th{
     border: 1px solid #2c0000;
@@ -224,6 +232,65 @@ h3{
     to {
         top: 100%;
         opacity: 0;
+    }
+
+}
+@media (max-width: 600px) {
+
+    body {
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    form {
+        width: 95%;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    textarea {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    ul {
+        width: 90%;
+        font-size: 17px;
+        padding-left: 20px;
+    }
+
+    li {
+        font-size: 17px;
+    }
+
+    table {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    td,
+    th {
+        padding: 7px;
+    }
+
+    input[type="submit"] {
+        width: 140px;
     }
 
 }
