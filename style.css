@@ -34,17 +34,22 @@ body{
 
 
 }
-.imagens { /* imagens lado a lado*/
-    display: flex;
+.imagens-lado {
+    display: flex !important;
+    flex-direction: row !important;
     justify-content: center;
     align-items: center;
     gap: 20px;
+    width: 100%;
 }
 
-.imagens img {
-    width: 250px;
-    height: 200px;
+.imagens-lado img {
+    width: 250px !important;
+    height: 200px !important;
+    max-width: 250px !important;
+    margin: 0 !important;
     object-fit: contain;
+
 }
 
 @keyframes movimentoEstrelas {
