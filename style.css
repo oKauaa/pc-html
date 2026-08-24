@@ -34,6 +34,18 @@ body{
 
 
 }
+.imagens { /* imagens lado a lado*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.imagens img {
+    width: 250px;
+    height: 200px;
+    object-fit: contain;
+}
 
 @keyframes movimentoEstrelas {
     from {
