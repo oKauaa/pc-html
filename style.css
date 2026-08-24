@@ -46,7 +46,6 @@ body{
 .imagens-lado img {
     max-width: 411px !important;
     height: 200px !important;
-    max-width: 250px !important;
     margin: 0 !important;
     object-fit: contain;
     border-radius: 10px;
