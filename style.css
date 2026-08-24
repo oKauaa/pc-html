@@ -129,17 +129,7 @@ input[type="submit"]{
     cursor: pointer;
     width: 150px;
 }
-img {
-    display: block;
-    margin: 0 auto;
-    width: 90%;
-    max-width: 411px;
-    border-radius: 10px;
-    border: 5px solid #2c0000;
-    justify-content: center;
 
-    transition: 0.4s;
-}
 
 img:hover {
     transform: scale(1.05);
