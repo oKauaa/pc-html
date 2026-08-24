@@ -40,15 +40,18 @@ body{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 100%;
+    width: 90%;
 }
 
 .imagens-lado img {
-    width: 250px !important;
+    max-width: 411px !important;
     height: 200px !important;
     max-width: 250px !important;
     margin: 0 !important;
     object-fit: contain;
+    border-radius: 10px;
+    border: 5px solid #2c0000;
+    transition: 0.4s;
 
 }
 
